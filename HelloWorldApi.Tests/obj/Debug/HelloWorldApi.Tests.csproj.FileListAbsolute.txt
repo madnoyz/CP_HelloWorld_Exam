@@ -1,0 +1,2 @@
+C:\Repos\CP_HelloWorld_Exam\HelloWorldApi.Tests\obj\Debug\HelloWorldApi.Tests.csprojAssemblyReference.cache
+C:\Repos\CP_HelloWorld_Exam\HelloWorldApi.Tests\obj\Debug\HelloWorldApi.Tests.csproj.CoreCompileInputs.cache

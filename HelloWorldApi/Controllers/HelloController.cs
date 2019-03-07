@@ -1,17 +1,27 @@
-﻿using System;
+﻿//-----------------------------------------------------------------------
+// <copyright file="HelloController.cs" company="Clyde Pabro">
+//  Copyright (c) 2019 All Rights Reserved
+//  <author>Clyde Pabro</author>
+// </copyright>
+//-----------------------------------------------------------------------
+
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Net;
 using System.Net.Http;
 using System.Web.Http;
 
-namespace HelloWorldApi.Controllers
+namespace HelloWorldProgram.HelloWorldApi.Controllers
 {
+    /// <summary>
+    ///     HelloController class provides GET, POST, PUT, DELETE web api and inherits from ApiController
+    /// </summary>
     public class HelloController : ApiController
     {
         // GET: api/hello
         [HttpGet]
-        public string Value()
+        public string GetValue()
         {
             return "Hello World";
         }

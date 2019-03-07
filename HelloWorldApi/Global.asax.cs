@@ -1,4 +1,11 @@
-﻿using HelloWorldApi.Configuration;
+﻿//-----------------------------------------------------------------------
+// <copyright file="Global.asax.cs" company="Clyde Pabro">
+//  Copyright (c) 2019 All Rights Reserved
+//  <author>Clyde Pabro</author>
+// </copyright>
+//-----------------------------------------------------------------------
+
+using HelloWorldProgram.HelloWorldApi.Configuration;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,6 +16,9 @@ using System.Web.SessionState;
 
 namespace HelloWorldApi
 {
+    /// <summary>
+    ///     Global class starts the main web api application. 
+    /// </summary>
     public class Global : System.Web.HttpApplication
     {
 
